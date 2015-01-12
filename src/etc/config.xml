@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webgriffe_WebsiteCreator>
+            <version>1.0.0</version>
+        </Webgriffe_WebsiteCreator>
+    </modules>
+    <global>
+        <models>
+            <webgriffe_websitecreator>
+                <class>Webgriffe_WebsiteCreator_Model</class>
+                <resourceModel>webgriffe_websitecreator_resource</resourceModel>
+            </webgriffe_websitecreator>
+            <webgriffe_websitecreator_resource>
+                <class>Webgriffe_WebsiteCreator_Model_Resource</class>
+            </webgriffe_websitecreator_resource>
+        </models>
+    </global>
+
+    <phpunit>
+        <suite>
+            <modules>
+                <Webgriffe_WebsiteCreator/>
+            </modules>
+        </suite>
+    </phpunit>
+</config>

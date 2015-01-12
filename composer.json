@@ -1,0 +1,27 @@
+{
+    "name": "webgriffe/website-creator-extension",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"Magento Website Creator Extension",
+    "authors":[
+        {
+            "name":"Webgriffe Srl",
+            "email":"support@webgriffe.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer":"*"
+    },
+    "require-dev": {
+        "ecomdev/ecomdev_phpunit": "dev-dev"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "extra":{
+        "magento-root-dir": "magento/"
+    }
+}

@@ -1,0 +1,7 @@
+/.idea/
+/bin/ci.sh
+/bin/run_test_suite.sh
+/magento/
+/vendor/
+/composer.lock
+/.modman
